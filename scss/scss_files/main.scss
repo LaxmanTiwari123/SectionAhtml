@@ -1,0 +1,35 @@
+@import "mixing";
+@import "var";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main{
+    height: $height;
+    width: 100vw;
+    background-color: $color;
+    @include flex_code();
+
+    // Operator & Nesting
+ 
+h1{
+    @include font_size(50px);
+    color: $color1;
+
+    &:hover{
+        color: red;
+           }
+  }
+
+p{
+    @include font_size(20px);
+    color: $color1;
+    letter-spacing: 10px;
+    font-family: monospace;
+ }
+     }

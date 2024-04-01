@@ -1,0 +1,43 @@
+body{
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: cadetblue;
+    padding: 10px;
+}
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+.navbar a:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.parent{
+    width: 100%;
+    height: 50vh;
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+}
+.child1{
+    height: 150px;
+    width: 150px;
+    background-color: azure;
+}
+.child2{
+    height: 150px;
+    width: 170px;
+    background-color: antiquewhite;
+}
+.child3{
+    height: 150px;
+    width: 190px;
+    background-color: bisque;
+}
